@@ -211,6 +211,4 @@ def main():
                 config.lives -= 1
                 enemies.remove(enemy)
         player.move_lazers(config.player_lazer_vel, enemies)
-    
-main()
         
